@@ -1,10 +1,10 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 
-import Bio from '../components/bio'
-import Layout from '../components/Layout'
-import SEO from '../components/Seo'
-import { rhythm } from '../utils/typography'
+import Bio from 'src/components/bio'
+import Layout from 'src/components/Layout'
+import SEO from 'src/components/Seo'
+import { rhythm } from 'src/utils/typography'
 
 type Props = {
   location: { pathname: string },

@@ -2,7 +2,7 @@
 import * as React from 'react'
 import { Link } from 'gatsby'
 
-import { rhythm, scale } from '../../utils/typography'
+import { rhythm, scale } from 'src/utils/typography'
 
 type Props = {
   location: { pathname: string },

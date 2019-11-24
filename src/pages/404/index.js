@@ -2,8 +2,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 
-import Layout from '../../components/Layout'
-import SEO from '../../components/Seo'
+import Layout from 'src/components/Layout'
+import SEO from 'src/components/Seo'
 
 type Props = {
   location: { pathname: string },

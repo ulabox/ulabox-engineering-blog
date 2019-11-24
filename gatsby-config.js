@@ -85,6 +85,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`
       }
     },
-    `gatsby-plugin-flow`
+    `gatsby-plugin-flow`,
+    `gatsby-plugin-root-import`
   ]
 }

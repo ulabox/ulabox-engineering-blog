@@ -39,6 +39,7 @@
   },
   "devDependencies": {
     "flow-bin": "^0.112.0",
+    "gatsby-plugin-root-import": "^2.0.5",
     "husky": "^3.1.0",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1"
