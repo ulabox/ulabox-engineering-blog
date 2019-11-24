@@ -3,7 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import Bio from '../../components/bio'
 import Layout from '../../components/layout'
-import SEO from '../../components/seo'
+import SEO from '../../components/Seo'
 import { rhythm, scale } from '../../utils/typography'
 
 type Props = {}
