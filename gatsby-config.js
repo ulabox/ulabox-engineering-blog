@@ -15,15 +15,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
+        path: `${__dirname}/src/pages/blog`,
         name: `blog`
-      }
-    },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`
       }
     },
     `gatsby-transformer-yaml`,
@@ -74,7 +67,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ff5d77`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`
+        icon: `static/feedIcon.png`
       }
     },
     `gatsby-plugin-offline`,
