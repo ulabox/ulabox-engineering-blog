@@ -38,6 +38,7 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "flow-bin": "^0.112.0",
     "husky": "^3.1.0",
     "lint-staged": "^9.4.3",
     "prettier": "^1.19.1"
@@ -54,6 +55,7 @@
   },
   "scripts": {
     "build": "gatsby build",
+    "flow": "flow",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "gatsby develop",
     "serve": "gatsby serve",
@@ -69,7 +71,7 @@
   },
   "lint-staged": {
     "*.{js,jsx}": [
-      "yarn run format",
+      "yarn run format && yarn run flow",
       "git add"
     ]
   },
