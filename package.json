@@ -38,6 +38,8 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
+    "husky": "^3.1.0",
+    "lint-staged": "^9.4.3",
     "prettier": "^1.19.1"
   },
   "homepage": "${REPO_URL}#readme",
@@ -64,5 +66,16 @@
     "semi": false,
     "singleQuote": true,
     "tabWidth": 2
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "yarn run format",
+      "git add"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
